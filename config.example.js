@@ -13,8 +13,8 @@ var CONFIG = {
    entitySize: ENTITY_SIZES.NORMAL, //SMALL, BIG are available
    tileSize: 150,
    tileMargin: 6,
-   serverUrl: "https://home.8023.online:9123",
-   wsUrl: "ws://home.8023.online:9123/api/websocket",
+   serverUrl: "https://ip:port",
+   wsUrl: "ws://ip:port/api/websocket",
    //googleApiKey: "XXXXXXXXXX", // Required if you are using Google Maps for device tracker
    debug: false, // Prints entities and state change info to the console.
 
