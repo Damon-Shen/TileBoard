@@ -13,8 +13,8 @@ App.config(function($locationProvider) {
 
 
 if(!window.CONFIG) {
-   var error = 'Please make sure you have "config.js" file and it\'s a valid javascript!\n' +
-      'If you running TileBoard for the first time, please rename "config.example.js" to "config.js"';
+   var error = '请确认"config.js"文件存在并配置正确！\n' +
+      '如果您是第一次运行本程序, 请修改"config.example.js"文件名为"config.js"';
 
    alert(error);
 }
