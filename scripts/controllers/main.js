@@ -1914,7 +1914,7 @@ $scope.closeClimateSelects = function ($event, item, entity) {
    function addError (error) {
        if(!CONFIG.ignoreErrors) Noty.addObject({
          type: Noty.ERROR,
-         title: 'Error',
+         title: '错误',
          message: error,
          lifetime: 10
       });
@@ -1923,8 +1923,8 @@ $scope.closeClimateSelects = function ($event, item, entity) {
    function warnUnknownItem(item) {
        if(!CONFIG.ignoreErrors) Noty.addObject({
            type: Noty.WARNING,
-           title: 'Entity not found',
-           message: 'Entity "' + item.id + '" not found',
+           title: '设备未发现',
+           message: '设备 "' + item.id + '" 未定义',
            id: item.id
        });
    }
